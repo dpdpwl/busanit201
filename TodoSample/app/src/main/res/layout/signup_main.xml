@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/singEmail"
+        android:layout_width="301dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="164dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/signName"
+        android:layout_width="295dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="@+id/singEmail"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/singEmail"
+        app:layout_constraintTop_toBottomOf="@+id/singEmail" />
+
+    <EditText
+        android:id="@+id/signPwd"
+        android:layout_width="297dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="pwd"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/signName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/signName"
+        app:layout_constraintTop_toBottomOf="@+id/signName" />
+
+    <EditText
+        android:id="@+id/signPwdConfrim"
+        android:layout_width="289dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="confirm pwd"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/signPwd"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/signPwd"
+        app:layout_constraintTop_toBottomOf="@+id/signPwd" />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="275dp"
+        android:layout_height="53dp"
+        android:text="sign up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signPwdConfrim"
+        app:layout_constraintVertical_bias="0.102" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
