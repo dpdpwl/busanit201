@@ -1,9 +1,8 @@
-# busanit201
+이름 : 정예지
 
-## MVP 패턴 적용
-
-## RxJava 적용
-
-## Room 적용
-
-## Retrofit 적용
+완성도
+[x] Login
+[x] Register
+[x] List
+[x] Write
+[x] Detail
